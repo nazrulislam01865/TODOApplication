@@ -1,0 +1,26 @@
+{
+  "name": "todoapplication",
+  "version": "1.0.0",
+  "description": "Test project for express js backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nazrulislam01865/TODOApplication.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nazrulislam01865/TODOApplication/issues"
+  },
+  "homepage": "https://github.com/nazrulislam01865/TODOApplication#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.2",
+    "nodemon": "^3.1.9"
+  }
+}
