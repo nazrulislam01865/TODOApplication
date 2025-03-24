@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/nazrulislam01865/TODOApplication#readme",
   "dependencies": {
+    "bcryptjs": "^3.0.2",
     "body-parser": "^1.20.3",
     "express": "^4.21.2",
     "mongoose": "^8.12.2",
