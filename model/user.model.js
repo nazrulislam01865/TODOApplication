@@ -30,6 +30,16 @@ userSchema.pre('save', async function() {
     
 });
 
+userSchema.method.comparePass = async function(userPassword){
+    try{
+        const isMatched = await bcrypt.compare(userPassword,this.password);
+        return isMatched;
+    }catch(err){
+        throw err;
+    }
+
+}
+
 const userModel = db.model('user',userSchema);
 
 module.exports = userModel;
